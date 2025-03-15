@@ -7,8 +7,8 @@ Prerequisite
 2. create key pair : EC2 service > network & security > key pair (name : jenkins) , type : rsa
 
 3. aws configure : enter aws credential access key and secret access key with required permission
-4. When you run terraform plan, you need to enter Password for db instance and Username for db instance
-5. When you run terraform apply , enter the password and username which you set up above
+4. When you run terraform plan, you need to enter Password for db instance and Username for db instance stored in secret.tf file 
+5. When you run terraform apply , again enter the db instance password and username
 
 Terraform installed.
 AWS IAM credentials configured.
