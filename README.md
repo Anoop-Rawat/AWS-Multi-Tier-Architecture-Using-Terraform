@@ -4,7 +4,7 @@ Prerequisite
 
 1. create s3 bucket for terraform backend (to store terraform.tfstate file): useful for github action automation s3 bucket name : three-tier-architecture-bucket12
 
-2. create key pair : EC2 service > network & security > key pair name : jenkins type : rsa
+2. create key pair : EC2 service > network & security > key pair (name : jenkins) , type : rsa
 
 Terraform installed.
 AWS IAM credentials configured.
