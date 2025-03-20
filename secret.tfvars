@@ -1,2 +1,2 @@
-db-username = "Advit"
-db-password = "Advit@123"
+db-username = "****"
+db-password = "****"
